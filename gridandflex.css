@@ -1,0 +1,445 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+p {
+  font-weight: 300;
+}
+.menu {
+  width: 25%;
+  text-align: center;
+  background-color: #161935;
+  position: fixed;
+  z-index: 1;
+  height: 100vh;
+}
+.menu img {
+  margin-top: 15%;
+  margin-bottom: 10%;
+}
+.menu a {
+  text-decoration: none;
+  color: #f5f5f5;
+  font-size: 1em;
+  border: #f5f5f5 1px solid;
+  background-color: #0d0d11;
+  display: block;
+  padding: 4% 0;
+  margin: 0 0;
+}
+section,
+footer {
+  margin-left: 26%;
+}
+.section1 {
+  background: url(car.jpg) top center;
+  background-size: cover;
+}
+.image {
+  display: flex;
+  justify-content: center;
+  padding-top: 16%;
+  padding-bottom: 3%;
+  background-color: rgba(0, 0, 0, 0.418);
+}
+.imgcontent {
+  text-align: center;
+  color: white;
+  width: 55%;
+}
+.imgcontent h1 {
+  font-size: 3em;
+  margin-bottom: 1%;
+}
+#imgbutton {
+  font-size: 1em;
+  background-color: #2554c7;
+  border: 1px white solid;
+  color: white;
+  padding: 1%;
+  margin-top: 2%;
+  margin-bottom: 12%;
+}
+.welcome {
+  display: flex;
+  justify-content: center;
+  padding-top: 4%;
+}
+.wlcmcontent {
+  width: 80%;
+
+  padding-bottom: 6%;
+}
+.wlcmcontent h2,
+.wlcmcontent p {
+  color: #2554c7;
+  font-weight: normal;
+  font-size: 2.5em;
+  text-align: center;
+}
+.wlcmcontent p {
+  color: black;
+  font-size: 1em;
+}
+.aboutusdiv {
+  width: 100%;
+}
+.abtuscontnt {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  border-top: 4px solid #dbbb02;
+}
+#tag1,
+#tag2,
+#tag3,
+#tag4 {
+  background-color: #ffd700;
+  padding: 1%;
+  font-size: 20px;
+  margin: 0;
+  color: white;
+  position: absolute;
+}
+.abtuspara {
+  width: 80%;
+  padding: 6% 0;
+  margin: auto;
+  display: flex;
+}
+.abtuscontnt div {
+  margin-top: 15%;
+  width: 31%;
+  text-align: center;
+  color: black;
+  font-weight: 300;
+}
+.aboutusdiv h2 {
+  color: #dbbb02;
+  font-weight: 400;
+  font-size: x-large;
+}
+.aboutusdiv p {
+  color: grey;
+  font-size: 15px;
+}
+
+.abtuspara .para {
+  width: 70%;
+  margin-right: 1%;
+  font-size: 15px;
+  line-height: 1.5em;
+}
+.abtuspara .image {
+  width: 30%;
+  margin-left: 1%;
+  align-self: center;
+  padding: 2%;
+  background-color: white;
+}
+#tag2 {
+  background-color: #984cea;
+}
+.servicesec {
+  width: 80%;
+  margin: auto;
+  border-top: 4px solid #6c2dc7;
+}
+.servicecont {
+  display: grid;
+  grid-template-columns: 32.33% 32.33% 32.33%;
+  column-gap: 2%;
+  row-gap: 30%;
+  padding: 15% 0;
+}
+.sertopdiv {
+  background-color: #984cea;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 5%;
+}
+.serbotdiv1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.serbotdiv1 h2 {
+  font-weight: 400;
+  color: #984cea;
+}
+.serbotdiv1 p {
+  line-height: 1.5em;
+  font-size: 15px;
+  color: black;
+}
+.container {
+  width: 100%;
+  background-color: #ddd;
+  margin: 5% 0;
+  border-radius: 7px;
+}
+
+.skills {
+  text-align: left;
+  padding: 2%;
+  color: white;
+  font-size: 12px;
+}
+.html,
+.css,
+.js,
+.php {
+  background-color: #984cea;
+  border-radius: 7px;
+}
+.html {
+  width: 90%;
+}
+.css {
+  width: 80%;
+}
+.js {
+  width: 65%;
+}
+.php {
+  width: 60%;
+}
+#tag3 {
+  background-color: #38e395;
+}
+.portfoliodiv {
+  border-top: #50c878 4px solid;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 6%;
+}
+.portfoliocontent {
+  display: grid;
+  grid-template-columns: 31% 31% 31%;
+  column-gap: 3%;
+  color: #38e395;
+  text-align: center;
+  padding-top: 15%;
+}
+.portfoliocontent p {
+  font-weight: 500;
+  font-size: 1.5em;
+}
+.portfoliodiv img {
+  width: 100%;
+}
+#load,
+#sendmsg {
+  font-size: 1em;
+  background-color: #38e395;
+  border: 1px grey solid;
+  color: white;
+  padding: 1%;
+  margin: 3%;
+}
+#tag4 {
+  background-color: #e3387c;
+}
+.contactdiv {
+  width: 80%;
+  margin: 2% auto;
+  border-top: 4px solid #c02764;
+  padding-bottom: 12%;
+}
+.contactcont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 10%;
+}
+.mapouter {
+  position: relative;
+  border: grey double 1px;
+  text-align: right;
+  z-index: -1;
+  width: 100%;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  width: 100%;
+  height: 400px;
+}
+.gmap_iframe {
+  width: 100% !important;
+  height: 400px !important;
+}
+.contactform p,
+.textarea p {
+  margin-bottom: 0;
+}
+.contactform {
+  width: 48%;
+}
+.contactform input {
+  width: 100%;
+  height: 45px;
+}
+
+.textarea {
+  width: 90%;
+  height: 50%;
+}
+
+#sendmsg {
+  background-color: #e3387c;
+  margin: 5% 0;
+}
+.footerdiv {
+  text-align: center;
+  background-color: #454545;
+  padding: 3% 0;
+}
+.footerdiv2 {
+  text-align: left;
+  background-color: #282828;
+  padding: 2% 0;
+  color: #f5f5f5;
+}
+.footerdiv2 p {
+  margin-left: 2%;
+}
+.footerdiv a {
+  color: white;
+  font-size: 2em;
+  text-decoration: none;
+  padding: 1%;
+}
+@media only screen and (min-width: 787px) and (max-width: 992px) {
+  .servicecont {
+    grid-template-columns: auto auto;
+    row-gap: 1%;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 786px) {
+  .menu {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    background-color: #161935;
+    position: relative;
+  }
+  menu a {
+    align-self: flex-start;
+    justify-content: flex-end;
+    padding: 0;
+  }
+  .menu img {
+    width: 20%;
+    margin: 1%;
+  }
+
+  section,
+  footer {
+    margin: 0;
+  }
+  .wlcmcontent,
+  .abtuscontnt {
+    width: 95%;
+    margin: auto;
+    flex-wrap: wrap;
+  }
+  .abtuspara,
+  .servicesec,
+  .portfoliodiv,
+  .contactdiv {
+    width: 95%;
+    margin: auto;
+  }
+  .abtuscontnt div {
+    width: 47%;
+  }
+  .servicecont {
+    grid-template-columns: auto auto;
+    row-gap: 1%;
+  }
+  .portfoliocontent {
+    grid-template-columns: 48% 48%;
+  }
+  .sertopdiv {
+    margin: 1%;
+    padding: 1%;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 575px) {
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 10%;
+  }
+  .imgcontent {
+    width: 100%;
+  }
+  .menu img {
+    width: 20%;
+    margin: 1%;
+  }
+
+  section,
+  footer {
+    margin: 0;
+  }
+  .wlcmcontent,
+  .abtuscontnt {
+    width: 95%;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .abtuspara,
+  .servicesec,
+  .portfoliodiv,
+  .contactdiv {
+    width: 95%;
+    margin: auto;
+  }
+  .abtuscontnt div {
+    width: 90%;
+  }
+  .abtuspara {
+    flex-wrap: wrap;
+  }
+  .abtuspara .para {
+    width: 100%;
+  }
+  .abtuspara .image {
+    display: none;
+  }
+  .image h1 {
+    font-size: 1.5em;
+  }
+  .servicecont {
+    grid-template-columns: auto;
+    row-gap: 1%;
+    column-gap: 1%;
+  }
+  .portfoliocontent {
+    grid-template-columns: 95%;
+    text-align: center;
+  }
+  .sertopdiv {
+    margin: 1%;
+    padding: 1%;
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  .serbotdiv2 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  .contactform {
+    width: 80%;
+  }
+}
